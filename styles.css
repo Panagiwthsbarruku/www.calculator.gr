@@ -1,0 +1,39 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    width: 300px;
+    margin: 75px auto;
+    border: 1px solid #ccc;
+    padding: 39px;
+    border-radius: 20px;
+   background: linear-gradient(45deg,#000,#ccc);
+}
+.result {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: right;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+button {
+    padding: 13px;
+    border: none;
+    border-radius: 15pc;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #000000;
+     color: #fff;
+  
+}
+   
